@@ -5,12 +5,12 @@
 #include "CycleColors.h"
 
 // Touch pins
-#define TOUCH_PIN_ON_OFF 2             // D2
-#define TOUCH_PIN_CHANGE_LED_MODES 3   // D3
-#define TOUCH_PIN_CYCLE_LED_COLORS 4   // D4
+#define TOUCH_PIN_ON_OFF 2             // D2 on the Arduino Nano
+#define TOUCH_PIN_CHANGE_LED_MODES 3   // D3 on the Arduino Nano
+#define TOUCH_PIN_CYCLE_LED_COLORS 4   // D4 on the Arduino Nano
 
 // LED strip constants
-#define LED_PIN         6   // D6
+#define LED_PIN         6   // D6 on the Arduino Nano
 #define NUM_LEDS        96
 #define MAX_BRIGHTNESS  150
 #define NUM_OF_RANDOM_LEDS 5
